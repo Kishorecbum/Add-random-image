@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.navbar{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.944) 0px 18px 36px -18px inset;
+  align-items: center;
+  
+}
+.navbarlink a{
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(34, 8, 40);
+    margin: 10px;
+  
+    
+    
+}
+.navbar h1{
+    color: rgb(46, 6, 56);
+    margin: 20px;
+}
+.navbarlink a:hover{
+    color: rgb(156, 58, 19);
+    text-decoration: underline;
+}
+.shopnow{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.levelup h2:hover{
+    
+    color: rgb(221, 127, 255);
+    transition: 3s;
+
+}
+.pic{
+    margin-left: 40px;
+}
+.levelup button{
+    background-color: rgb(1, 1, 1);
+    color: rgb(177, 74, 232);
+    padding: 5px 15px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.levelup p{
+    margin-top: 5px;
+    font-size: small;
+}
+.pic img{
+    width: 400px;
+}
+.levelup button:hover{
+    
+    color: rgb(255, 255, 255);
+}
+.levelup h2{
+
+    color: rgb(79, 5, 98);
+}
+.levelup h4{
+    color: rgb(68, 3, 83);
+}
+.navbar{
+   padding: 1px 20px;
+}
+.best{
+    text-align: center;
+    color: rgb(123, 101, 5);
+}
+
+.box1{
+    width: 30%;
+    background-color: rgb(183, 183, 183);
+    margin: 10px;
+    padding: 10px;
+
+}
+.box1 h4{
+   margin: 3px 5px;
+   color: rgb(58, 6, 71);
+   
+}
+.box p{
+    margin-left: 5px;
+}
+.box{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box1 h1{
+   font-size: larger;
+}
+
+.certificate{
+    text-align: center;
+    margin: 20px;
+}
+.footer{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(159, 36, 168);
+    
+}
+.footer h2{
+    color: rgb(190, 7, 203);
+    margin-bottom: 10px;
+}
+.footericon i{
+ margin: 5px;
+ 
+}
+.footericon i:hover{
+    color: rgb(255, 255, 255);
+    
+   }
+   .footer p{
+    margin-bottom: 5px;
+   }
+.footericon{
+    margin: 5px 0;
+    
+}
+.menu h1{
+    text-align: center;
+    margin: 10px;
+    color: rgb(114, 35, 1);
+}
+.starters{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px ;
+}
+.click button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+    
+
+}
+.click{
+    text-align: center;
+}
+.starters img{
+    width: 300px;
+    margin: 10px;
+}
+.start{
+    text-align: center;
+    margin: 20px;
+    
+}
+.startdish{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: space-around;
+}
+.startdish img{
+    width: 280px;
+    height: 200px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.startdish h3{
+    text-align: center;
+}
+.startdish p{
+    text-align: center;
+}
+.search input{
+    width: 80%;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    outline: none;
+    
+
+    
+}
+.search{
+    text-align: center;
+}
+
+
+
+
+
+ @media screen and (max-width:600px){
+    
+    .box1{
+        width: 100%;
+        
+        margin: 10px;
+        padding: 10px;
+    }
+
+ }
+
